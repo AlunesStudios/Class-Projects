@@ -1,4 +1,6 @@
-import streamlit as st
+import streamlit as st 
+
+st.header("Square or Rectangle?")
 Length = st.number_input("Enter the length of your rectangle.", min_value=0.00)
 Breadth = st.number_input("Enter the breadth of your rectangle.", min_value=0.00)
 if st.button("Check shape."):
@@ -12,6 +14,7 @@ if st.button("Check shape."):
 
 st.header("", divider="grey")
 
+st.header("Login check.")
 user_name = "Al_UK"
 password = "1234543211"
 
@@ -26,6 +29,7 @@ if st.button("Login"):
 
 st.header("", divider="grey")
 
+st.header("Which is greater?")
 Num_1 = st.text_input("Enter Number 1")
 Num_2 = st.text_input("Enter Number 2")
 
